@@ -1,0 +1,79 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "*",
+		"android": "*",
+		"mac": "*",
+		"ios": "*"
+	},
+	"version": "v1.1.0",
+	"id": "yourname.hitbox-viewer",
+	"name": "Hitbox Viewer",
+	"developers": [
+		"yourname"
+	],
+	"description": "Shows hitboxes in levels. Press Tab to drop down the hitbox menu (HB button on mobile).",
+	"tags": [
+		"universal",
+		"gameplay",
+		"interface",
+		"utility"
+	],
+	"settings": {
+		"hitbox-section": {
+			"name": "Hitboxes",
+			"description": "Choose what gets drawn. You can also change these from the in-game menu (<cr>Tab</c>).",
+			"type": "title"
+		},
+		"show-hitboxes": {
+			"name": "Show hitboxes",
+			"description": "Master switch for the hitbox viewer.",
+			"type": "bool",
+			"default": true
+		},
+		"show-solids": {
+			"name": "Solid blocks (blue)",
+			"type": "bool",
+			"default": true
+		},
+		"show-hazards": {
+			"name": "Hazards (red)",
+			"type": "bool",
+			"default": true
+		},
+		"show-specials": {
+			"name": "Portals, pads, orbs and other special objects (green)",
+			"type": "bool",
+			"default": true
+		},
+		"show-player": {
+			"name": "Player (yellow)",
+			"type": "bool",
+			"default": true
+		},
+		"look-section": {
+			"name": "Appearance",
+			"type": "title"
+		},
+		"hitbox-opacity": {
+			"name": "Hitbox opacity (%)",
+			"type": "int",
+			"default": 80,
+			"min": 5,
+			"max": 100,
+			"control": {
+				"slider": true
+			}
+		},
+		"line-width": {
+			"name": "Outline thickness",
+			"type": "int",
+			"default": 2,
+			"min": 1,
+			"max": 8,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
