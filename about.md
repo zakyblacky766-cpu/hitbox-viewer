@@ -4,7 +4,7 @@ Draws the hitboxes of everything in a level so you can see exactly what is touch
 
 ## How to use
 
-Press **Left Alt** to drop the menu down from the top of the screen. Press it again (or click the X) to roll it back up.
+Press **Tab** (Windows) to drop the menu down from the top of the screen. On the pause screen use the **Hitboxes** button; on macOS, Android and iOS tap the small **HB** button in the top-left. Press it again (or click the X) to roll it back up.
 
 In the menu you can switch each type on or off:
 
@@ -19,4 +19,4 @@ The slider controls how see-through the boxes are. Outline thickness is in the m
 ## Notes
 
 - Rotated objects are drawn using their bounding box.
-- Works on any Geometry Dash version that Geode supports.
+- Works on Windows, macOS, Android and iOS, on any Geometry Dash version that Geode supports.

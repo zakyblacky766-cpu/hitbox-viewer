@@ -1,11 +1,12 @@
-# v1.0.1
+# v1.1.0
 
-- Added a "Hitboxes" button to the pause menu as a backup way to open the menu.
-- Added a small popup when the menu opens/closes (can be turned off in settings).
-- Left Alt is now checked in two places for reliability.
+- Menu rebuilt: works from every screen, slides down from the top with a bounce, colour swatches, opacity slider with live percentage.
+- Menu key changed from Left Alt to **Tab**.
+- Menu is now created once and kept across scenes (fixes it never appearing).
+- New **Hitboxes** button on the pause screen; on-screen **HB** button on macOS/Android/iOS.
+- Toggling a box in the menu updates the level immediately, even while paused.
+- iOS added to supported platforms.
 
 # v1.0.0
 
 - First release.
-- Hitbox viewer with solids, hazards, specials and player boxes.
-- Left Alt drop-down menu with animated slide, toggles and an opacity slider.
